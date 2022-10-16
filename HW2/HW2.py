@@ -46,8 +46,3 @@ def ReadFile(filename):
     with open(f"{filename}"+".json") as f:
         data_read = json.load(f)
     return data_read
-
-data = [1, 2, 3]
-filename = 'test'
-print(WriteFile(filename, data))
-print(ReadFile(filename))
