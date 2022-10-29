@@ -6,4 +6,4 @@ RUN pip install pandas
 
 ENV PATH=/root/.local:$PATH
 
-CMD ["python", "./HW2.py" ]
+CMD ["python", "./HW3.py" ]
